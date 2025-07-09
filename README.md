@@ -37,8 +37,8 @@ You can either:
 ### 1) Clone the Repo
 
 ```bash
-git clone https://github.com/YourUsername/HellsingCipher.git
-cd HellsingCipher
+git clone https://github.com/themysteriousbabaganoush/hellsing_cipher.git
+cd hellsing_cipher
 ```
 
 ---
@@ -48,10 +48,7 @@ cd HellsingCipher
 If you choose to run the raw Python file:
 
 ```bash
-pip install -r requirements.txt
-```
-
-Or manually install them:
+manually install them:
 
 ```
 pycryptodome
