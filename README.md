@@ -1,1 +1,156 @@
 # hellsing_cipher
+
+## 📦 Hellsing Academy – Tech Division Cypher v11 🛡️
+
+9bd3809b61d22a2503e54729aa40146744f3fa36d5924319a76b74ce7d00c4f2  hellsing_cipher_v11_win.exe
+71bfb2658650a43d79ddfd18b7d43178d2278362048f435cdefdb8d3f2dd77bd  hellsingcipher
+1087607562350e38fbab1350860975edf6aea21bb3c7092e67aae3b6e4a02fcf  hellsingcipher.py
+
+> *Encrypt like a vampire, decrypt like a gentleman.*
+
+Welcome to the official **HellsingCipher Encryption Suite v11**:
+A totally overkill, borderline‑paranoid, AES‑powered encryption tool that makes your secrets vanish like a ninja in the night.
+
+**Written in Python** with a sprinkle of ☕ coffee‑fueled paranoia, it lets you:
+
+* Encrypt & decrypt text messages, single files, or entire folders
+* Shred originals like yesterday’s embarrassing selfies
+* Log every glorious move (in your own local logs)
+
+---
+
+## 🐧 Windows? Linux? Mac?
+
+Yes! (Mostly)
+
+You can either:
+
+* Run the raw Python file (`hellsingcipher.py`) if you have Python installed
+* Or run the standalone executable (if you compiled it) – no Python needed!
+
+---
+
+## 🛠 How to build & run
+
+### 1) Clone the Repo
+
+```bash
+git clone https://github.com/YourUsername/HellsingCipher.git
+cd HellsingCipher
+```
+
+---
+
+### 2) Install Dependencies
+
+If you choose to run the raw Python file:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or manually install them:
+
+```
+pycryptodome
+tqdm
+```
+
+---
+
+### 3) Run like the wind
+
+**Linux / macOS:**
+
+```bash
+python3 hellsingcipher.py
+```
+
+**Windows (PowerShell):**
+
+```powershell
+python hellsingcipher.py
+```
+
+Or simply run the compiled `hellsingcipher.exe` (if you made one).
+
+---
+
+## 🧰 How to Compile to EXE (Windows) or Binary (Linux)
+
+Optional, but makes you feel cooler:
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile hellsingcipher.py
+```
+
+You’ll get an executable in the `dist` folder.
+Perfect for carrying on your USB stick marked "Definitely Not Hacking Tools".
+
+---
+
+## ⚙️ Usage – The Menu of Doom
+
+Once you run it, you'll see glorious ASCII art and a menu:
+
+```
+1) Encrypt Message
+2) Decrypt Message
+3) Encrypt File
+4) Decrypt File
+5) Encrypt Folder
+6) Decrypt Folder
+7) Exit
+```
+
+* **Encrypt**: Enter your password twice (don’t forget it — Dracula won’t help recover it).
+* **Decrypt**: Type password once (if you remember it).
+* **Shred original**: Choose `y` to overwrite & delete files after encryption.
+
+Logs go into the `log/` folder, timestamped like ancient scrolls.
+
+---
+
+## 🔧 Dependencies (raw Python version):
+
+```
+Python >= 3.8
+pycryptodome
+tqdm
+```
+
+You can install them all via:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🔒 Features
+
+✅ AES‑256‑CBC encryption
+✅ PBKDF2 key derivation with 200,000 iterations (brutally slow for attackers)
+✅ SHA‑256 file hashing for integrity checks
+✅ Shredding originals
+✅ Encrypted headers with metadata
+✅ Progress bars so you look busy at coffee shops
+
+---
+
+## 🤦‍♂️ Disclaimer
+
+> This tool is provided *as‑is*.
+> The authors accept **no responsibility** if you encrypt grandma’s tax docs and forget your password.
+> Always back up your data before testing.
+
+---
+
+## 🩸 Final Words
+
+Remember:
+
+> *Encryption is like garlic to vampires. Use liberally.*
+
+Go forth, encrypt, and keep the Hellsing legacy alive! 🦇
